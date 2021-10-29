@@ -1,0 +1,311 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*------------------------------------ Coloum --------------------------------------*/
+.col100 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col10 {
+    width: 10%;
+}
+
+.col20 {
+    width: 20%;
+}
+
+.col25 {
+    width: 25%;
+}
+
+.col30 {
+    width: 30%;
+}
+
+.col40 {
+    width: 40%;
+}
+
+.col50 {
+    width: 50%;
+}
+
+.col60 {
+    width: 60%;
+}
+
+.col70 {
+    width: 70%;
+}
+
+.col75 {
+    width: 75%;
+}
+
+.col80 {
+    width: 80%;
+}
+
+.col90 {
+    width: 90%;
+}
+
+.col33 {
+    width: 33.333333%;
+}
+
+/*------------------------------------ Width --------------------------------------*/
+.fit {
+    width: -moz-fit-content!important;
+}
+
+.full {
+    width: 100%;
+}
+
+.full>div {
+    margin: 0px auto;
+}
+
+/*------------------------------------ Content --------------------------------------*/
+
+.content-s {
+    padding: 4px 8px;
+}
+
+.content-m {
+    padding: 8px 12px;
+}
+
+.content-l {
+    padding: 12px 16px;
+}
+
+.content-xl {
+    padding: 16px 20px;
+}
+
+/*------------------------------------  Umum  ------------------------------------*/
+.img-res {
+    max-width: 100%;
+}
+
+.clear {
+    clear: both;
+    height: 0px !important;
+}
+
+.block {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/*------------------------------------  Text  ------------------------------------*/
+.center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.nowrap-clips {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.nowrap-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*------------------------------------  Pading & Margin ------------------------------------*/
+
+.pd-s {
+    padding: 4px;
+}
+
+.pd-m {
+    padding: 8px;
+}
+
+.pd-l {
+    padding: 12px;
+}
+
+.pd-xl {
+    padding: 16px;
+}
+
+.pd-tb-s {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.pd-tb-m {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.pd-tb-l {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.pd-tb-xl {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.pd-lr-s {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.pd-lr-m {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.pd-lr-l {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.pd-lr-xl {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.mg-s {
+    margin: 4px;
+}
+
+.mg-m {
+    margin: 8px;
+}
+
+.mg-l {
+    margin: 12px;
+}
+
+.mg-xl {
+    margin: 16px;
+}
+
+.mg-auto {
+    margin: 0 auto;
+}
+
+/*------------------------------------ Round  ------------------------------------*/
+
+.round-s {
+    border-radius: 4px;
+}
+
+.round-m {
+    border-radius: 6px;
+}
+
+.round-l {
+    border-radius: 8px;
+}
+
+.round-xl {
+    border-radius: 12px;
+}
+
+/*------------------------------------  Responsive  ------------------------------------*/
+.res4-2-b {
+    display: none;
+}
+
+.res3-b {
+    display: none;
+}
+
+.res2-b {
+    display: none;
+}
+
+@media(max-width:1279px) {}
+
+@media(max-width:979px) {}
+
+@media(max-width:799px) {}
+
+@media(max-width:767px) {
+    .res4-2--s {
+        width: 50% !important;
+    }
+
+    .res4-2-1 {
+        width: 50% !important;
+    }
+
+    .res3-1 {
+        width: 100% !important;
+    }
+
+    .res4-2-h {
+        display: none;
+    }
+
+    .res3-h {
+        display: none;
+    }
+
+    .res4-2-b {
+        display: block;
+        width: 50% !important;
+    }
+
+    .res3-b {
+        display: block;
+        width: 100% !important;
+    }
+}
+
+@media(max-width:639px) {}
+
+@media(max-width:479px) {
+    .res4-2-1 {
+        width: 100% !important;
+    }
+
+    .res2-1 {
+        width: 100% !important;
+    }
+
+    .res2-h {
+        display: none;
+    }
+
+    .res2-b {
+        display: block;
+        width: 100% !important;
+    }
+}
+
+@media(max-width:359px) {}

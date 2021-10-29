@@ -1,0 +1,119 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-color: #f5f5f5;
+}
+
+h1.title {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: unset;
+}
+
+#wrapper {
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+#coloum div {
+    background-color: #3a64ad;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    color: #fff;
+}
+
+#round div div {
+    background-color: #3a64ad;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    color: #fff;
+}
+
+#margin .col20 {
+    border: solid 4px #fff;
+    height: 10%;
+}
+
+#padding .col25 {
+    border: solid 4px #fff;
+    height: 10%;
+}
+
+#content .col25 {
+    border: solid 4px #fff;
+    height: 10%;
+}
+
+#list .col25 {
+    border: solid 4px #fff;
+    border-bottom: solid 1px #ddd;
+}
+
+#button .btn {
+    margin-top: 4px;
+}
+
+#alert .alert {
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#opacity div {
+    background-color: #3a64ad;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    color: #fff;
+}
+
+#input input {
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+#input textarea {
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+#input select {
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+#shadow .shadow {
+    background-color: #3a64ad;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#title .col25 {
+    border: solid 4px #fff;
+    border-bottom: solid 1px #ddd;
+}
+
+#table .table {
+    margin-top: 8px;
+}
+
+#table .table tr td {
+    border-color: #3a64ad !important;
+}
+
+#pagination .pagination {
+    margin-top: 8px;
+}
