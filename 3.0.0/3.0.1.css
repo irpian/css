@@ -1240,6 +1240,7 @@ ul.li-none li {
 
     .res3-1 {
         width: 100% !important;
+        margin: 0px;
     }
 
     .res4-2-h {
@@ -1258,6 +1259,7 @@ ul.li-none li {
     .res3-b {
         display: block;
         width: 100% !important;
+        margin: 0px;
     }
 
     .res3-o {
@@ -1278,10 +1280,12 @@ ul.li-none li {
 
     .res4-2-1 {
         width: 100% !important;
+        margin: 0px;
     }
 
     .res2-1 {
         width: 100% !important;
+        margin: 0px;
     }
 
     .res2-h {
@@ -1291,6 +1295,7 @@ ul.li-none li {
     .res2-b {
         display: block;
         width: 100% !important;
+        margin: 0px;
     }
 
     .res2-o {
