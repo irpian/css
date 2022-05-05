@@ -1262,6 +1262,16 @@ ul.li-none li {
         margin: 0px;
     }
 
+    .res3-b {
+        display: block;
+        width: 100% !important;
+        margin: 0px;
+    }
+
+    .res3-s {
+        display: block !important;
+    }
+
     .res3-o {
         overflow: scroll;
     }
@@ -1296,6 +1306,10 @@ ul.li-none li {
         display: block;
         width: 100% !important;
         margin: 0px;
+    }
+
+    .res2-s {
+        display: block !important;
     }
 
     .res2-o {
