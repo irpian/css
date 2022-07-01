@@ -1,16 +1,16 @@
 <html>
 
 <head>
-    <title>Irpie Style 3.0.0</title>
-    <link rel="stylesheet" href="3.0.0.css" type="text/css" media="all" />
+    <title>Irpie Style 4.0.0</title>
+    <link rel="stylesheet" href="4.0.0.css" type="text/css" media="all" />
     <link rel="stylesheet" href="style.css" type="text/css" media="all" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 </head>
 
 <body>
-    <div id="wrapper" class="wrapper-xs shadow-m round-xl res3-1 content-xl background-white">
+    <div id="wrapper" class="wrapper-xs shadow-m round-xl res3-1 res3-c content-xl background-white">
         <div class="center">
-            <h1 class="title">Irpie Style 3.0.0</h1>
+            <h1 class="title">Irpie Style 4.0.0</h1>
         </div>
         <div class="list-xl">
             <div class="title-m">
@@ -126,8 +126,12 @@
                     <div class="round-xxl">round-xxl</div>
                 </div>
                 <div class="col25 pd-lr-m left res2-1 center">
-                    <div class="round-circle circle col25">round-circle</div>
+                    <div class="round-xxl round-none">round-none</div>
                 </div>
+                <div class="col25 pd-lr-m left res2-1 center">
+                    <div class="round-circle circle col25 mg-auto">round-circle</div>
+                </div>
+
             </div>
             <div class="clear"></div>
         </div>
@@ -239,6 +243,81 @@
                 </div>
                 <div class="clear"></div>
             </div>
+        </div>
+        <div class="list-xl">
+            <div class="title-m">
+                <h2>Extra Padding & Margin : </h2>
+            </div>
+            <div class="col100" id="table">
+                <table class="table table-s" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                        <tr class="bg-blue">
+                            <td><b>Size</b></td>
+                            <td width=""><b>Padding Top</b></td>
+                            <td width=""><b>Padding Bottom</b></td>
+                            <td width=""><b>Margin Top</b></td>
+                            <td width=""><b>Margin Bottom</b></td>
+                        </tr>
+                        <tr>
+                            <td>Small <span class="right">4px</span></td>
+                            <td>pd-t-s</td>
+                            <td>pd-b-s</td>
+                            <td>m-t-s</td>
+                            <td>m-b-s</td>
+                        </tr>
+                        <tr>
+                            <td>Medium <span class="right">8px</span></td>
+                            <td>pd-t-m</td>
+                            <td>pd-b-m</td>
+                            <td>m-t-m</td>
+                            <td>m-b-m</td>
+                        </tr>
+                        <tr>
+                            <td>Large <span class="right">16px</span></td>
+                            <td>pd-t-l</td>
+                            <td>pd-b-l</td>
+                            <td>m-t-l</td>
+                            <td>m-b-l</td>
+                        </tr>
+                        <tr>
+                            <td>Extra Large <span class="right">24px</span></td>
+                            <td>pd-t-xl</td>
+                            <td>pd-b-xl</td>
+                            <td>m-t-xl</td>
+                            <td>m-b-xl</td>
+                        </tr>
+                        <tr>
+                            <td>Extra Large S <span class="right">36px</span></td>
+                            <td>pd-t-sxl</td>
+                            <td>pd-b-sxl</td>
+                            <td>m-t-sxl</td>
+                            <td>m-b-sxl</td>
+                        </tr>
+                        <tr>
+                            <td>Extra Large M <span class="right">48px</span></td>
+                            <td>pd-t-mxl</td>
+                            <td>pd-b-mxl</td>
+                            <td>m-t-mxl</td>
+                            <td>m-b-mxl</td>
+                        </tr>
+                        <tr>
+                            <td>Extra Large L <span class="right">64px</span></td>
+                            <td>pd-t-lxl</td>
+                            <td>pd-b-lxl</td>
+                            <td>m-t-lxl</td>
+                            <td>m-b-lxl</td>
+                        </tr>
+                        <tr>
+                            <td>Extra Large XL  <span class="right">84px</span></td>
+                            <td>pd-t-xxl</td>
+                            <td>pd-b-xxl</td>
+                            <td>m-t-xxl</td>
+                            <td>m-b-xxl</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="clear"></div>
         </div>
         <div class="list-xl">
             <div class="title-m">
@@ -718,6 +797,10 @@
                             <td>img-res</td>
                         </tr>
                         <tr>
+                            <td>Image Cover</td>
+                            <td>img-cover</td>
+                        </tr>
+                        <tr>
                             <td width="25%">Display Table</td>
                             <td>display-table > table-cell</td>
                         </tr>
@@ -768,7 +851,7 @@
             </div>
             <div class="clear"></div>
         </div>
-                <div class="list-xl">
+        <div class="list-xl">
             <div class="title-m">
                 <h2>Text Style : </h2>
             </div>
@@ -807,6 +890,58 @@
                     </div>
                     <div class="clear"></div>
                 </div>
+            </div>
+        </div>
+        <div class="list-xl">
+            <div class="title-m">
+                <h2>Font Family : </h2>
+            </div>
+            <div class="col100" id="table">
+                <table class="table table-s" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                        <tr class="bg-blue">
+                            <td width="25%"><b>Font</b></td>
+                            <td><b>Class</b></td>
+                        </tr>
+                        <tr>
+                            <td>Arial</td>
+                            <td>font-arial</td>
+                        </tr>
+                        <tr>
+                            <td>Verdana</td>
+                            <td>font-verdana</td>
+                        </tr>
+                        <tr>
+                            <td>Helvetica </td>
+                            <td>font-helvetica</td>
+                        </tr>
+                        <tr>
+                            <td>Tahoma</td>
+                            <td>font-tahoma</td>
+                        </tr>
+                        <tr>
+                            <td>Times New Roman</td>
+                            <td>font-tmr</td>
+                        </tr>
+                        <tr>
+                            <td>Georgia</td>
+                            <td>font-georgia</td>
+                        </tr>
+                        <tr>
+                            <td>Garamond</td>
+                            <td>font-garamond</td>
+                        </tr>
+                        <tr>
+                            <td>Courier New</td>
+                            <td>font-courier</td>
+                        </tr>
+                        <tr>
+                            <td>Brush Script MT</td>
+                            <td>font-brush</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="clear"></div>
             </div>
         </div>
         <div class="list-xl">
@@ -1059,8 +1194,8 @@
                     </tr>
                     <tr>
                         <td>.res4-2-b</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
+                        <td>hide</td>
+                        <td>hide</td>
                         <td>show</td>
                         <td>show</td>
                         <td>show</td>
@@ -1068,8 +1203,8 @@
                     </tr>
                     <tr class="alert-skyblue">
                         <td>.res3-b</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
+                        <td>hide</td>
+                        <td>hide</td>
                         <td>show</td>
                         <td>show</td>
                         <td>show</td>
@@ -1077,10 +1212,10 @@
                     </tr>
                     <tr>
                         <td>.res2-b</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
+                        <td>hide</td>
+                        <td>hide</td>
+                        <td>hide</td>
+                        <td>hide</td>
                         <td>show</td>
                         <td>show</td>
                     </tr>
@@ -1101,6 +1236,24 @@
                         <td>&nbsp;</td>
                         <td>overflow:scroll</td>
                         <td>overflow:scroll</td>
+                    </tr>
+                    <tr class="alert-skyblue">
+                        <td>.res3-c</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>clear</td>
+                        <td>clear</td>
+                        <td>clear</td>
+                        <td>clear</td>
+                    </tr>
+                    <tr>
+                        <td>.res2-c</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>clear</td>
+                        <td>clear</td>
                     </tr>
                 </table>
                 <br />
