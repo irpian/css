@@ -145,8 +145,12 @@ body {
     width: 8.333333%;
 }
 
-.col {
-    display: flex;
+.col > [class^="col"] {
+    float: left;
+}
+
+.row {
+    display: inline-flex;
 }
 
 
