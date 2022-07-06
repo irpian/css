@@ -1480,6 +1480,7 @@ ul.li-none li {
     }
 
     .res3-c {
+        width: 100% !important;
         margin: 0px !important;
         box-shadow: none;
         border-radius: 0px;
@@ -1526,6 +1527,7 @@ ul.li-none li {
     }
 
     .res2-c {
+        width: 100% !important;
         margin: 0px !important;
         box-shadow: none;
         border-radius: 0px;
