@@ -1485,6 +1485,10 @@ ul.li-none li {
         box-shadow: none;
         border-radius: 0px;
     }
+
+    .wrapper.res3-c { 
+        width: 100% !important;
+    }
 }
 
 @media(max-width:639px) {
@@ -1532,10 +1536,20 @@ ul.li-none li {
         box-shadow: none;
         border-radius: 0px;
     }
+
+    .wrapper.res2-c { 
+        width: 100% !important;
+    }
 }
 
 @media(max-width:359px) {
     .wrapper {
         width: 320px !important;
+    }
+
+    .wrapper.res3-c,
+    .wrapper.res2-c,
+     { 
+        width: 100% !important;
     }
 }
