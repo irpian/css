@@ -1370,6 +1370,10 @@ ul.li-none li {
     display: none;
 }
 
+.res4-b {
+    display: none;
+}
+
 .res3-b {
     display: none;
 }
@@ -1426,6 +1430,11 @@ ul.li-none li {
     .wrapper {
         width: 768px !important;
     }
+
+    .res4-b {
+        display: block;
+    }
+
 }
 
 @media(max-width:767px) {
@@ -1450,19 +1459,13 @@ ul.li-none li {
         display: none;
     }
 
-    .res3-h {
-        display: none;
-    }
-
     .res4-2-b {
         display: block;
         width: 50% !important;
     }
 
-    .res3-b {
-        display: block;
-        width: 100% !important;
-        margin: 0px;
+    .res3-h {
+        display: none;
     }
 
     .res3-b {
