@@ -145,6 +145,10 @@ body {
     width: 8.333333%;
 }
 
+.col {
+  display: flow-root;
+}
+
 .col > [class^="col"] {
     float: left;
 }
