@@ -279,6 +279,32 @@ body {
     margin-bottom: 32px;
 }
 
+/*------------------------------------  list  Line ------------------------------------*/
+
+.list-line-s {
+    padding-top: 4px;
+    padding-bottom: 12px;
+    border-bottom: solid 1px #ddd;
+}
+
+.list-line-m {
+    padding-top: 6px;
+    padding-bottom: 16px;
+    border-bottom: solid 1px #ddd;
+}
+
+.list-line-l {
+    padding-top: 8px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #ddd;
+}
+
+.list-line-xl {
+    padding-top: 12px;
+    padding-bottom: 24px;
+    border-bottom: solid 1px #ddd;
+}
+
 /*------------------------------------ Link & Text --------------------------------------*/
 
 .link {
@@ -1250,7 +1276,6 @@ body {
     margin-bottom: 14px;
 }
 
-
 /*------------------------------------  Pagination  ------------------------------------*/
 
 .pagination {
@@ -1501,7 +1526,7 @@ ul.li-none li {
         border-radius: 0px !important;
     }
 
-    .wrapper.res3-c { 
+    .wrapper.res3-c {
         width: 100% !important;
         margin: 0px !important;
         box-shadow: none !important;
@@ -1555,7 +1580,7 @@ ul.li-none li {
         border-radius: 0px !important;
     }
 
-    .wrapper.res2-c { 
+    .wrapper.res2-c {
         width: 100% !important;
         margin: 0px !important;
         box-shadow: none !important;
@@ -1570,7 +1595,7 @@ ul.li-none li {
 
     .wrapper.res3-c,
     .wrapper.res2-c,
-     { 
+     {
         width: 100% !important;
         margin: 0px !important;
         box-shadow: none !important;
